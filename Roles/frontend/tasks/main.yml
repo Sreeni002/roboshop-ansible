@@ -1,6 +1,6 @@
-#- name: Demo
-#  ansible.builtin.debug:
-#    msg: Component - Frontend
+- name: Demo
+  ansible.builtin.debug:
+    msg: Component - Frontend
 
 - name: Install nginx
   ansible.builtin.yum:
